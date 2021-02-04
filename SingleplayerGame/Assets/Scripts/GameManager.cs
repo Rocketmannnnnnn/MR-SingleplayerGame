@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public string enemyTag = "Enemy";
     public string userInterfaceTag = "UI";
     public float winCheckDelay = 0.5f;
+    public bool loadingScene = false;
 
     private void Start()
     {
@@ -34,5 +35,11 @@ public class GameManager : MonoBehaviour
         userInterface.GetComponentInChildren<SetWinLoseText>().SetText(win);
         ApplicationState state = GetComponent<ApplicationState>();
         state.allowRestart = true;
+        this.loadingScene = true;
+    }
+
+    private void OnApplicationQuit()
+    {
+        this.loadingScene = true;
     }
 }
