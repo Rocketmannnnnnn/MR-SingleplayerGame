@@ -872,6 +872,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3875687391144394640, guid: 2e17427226fa5444dbd63a39cfcbd0c4,
+        type: 3}
+      propertyPath: shellFireRate
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875687391144394640, guid: 2e17427226fa5444dbd63a39cfcbd0c4,
+        type: 3}
+      propertyPath: tankMovementSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875687391144394640, guid: 2e17427226fa5444dbd63a39cfcbd0c4,
+        type: 3}
+      propertyPath: tankRotationSpeed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 3875687391144394652, guid: 2e17427226fa5444dbd63a39cfcbd0c4,
         type: 3}
       propertyPath: camera
