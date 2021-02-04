@@ -35,7 +35,6 @@ public class GameManager : MonoBehaviour
         userInterface.GetComponentInChildren<SetWinLoseText>().SetText(win);
         ApplicationState state = GetComponent<ApplicationState>();
         state.allowRestart = true;
-        this.loadingScene = true;
     }
 
     private void OnApplicationQuit()

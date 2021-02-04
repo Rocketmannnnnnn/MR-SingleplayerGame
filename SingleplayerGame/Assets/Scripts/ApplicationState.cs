@@ -20,6 +20,9 @@ public class ApplicationState : MonoBehaviour
 
         if(this.allowRestart && Input.GetKeyDown(KeyCode.R))
         {
+            GameObject managerObj = GameObject.FindWithTag("GameController");
+            GameManager gm = managerObj.GetComponent<GameManager>();
+            gm.loadingScene = true;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
