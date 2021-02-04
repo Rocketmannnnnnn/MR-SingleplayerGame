@@ -69,7 +69,6 @@ public class MapGeneration : MonoBehaviour
             int x = (int) ((t.transform.position.x / tilesize) + oceanSize.x);
             int y = (int) ((t.transform.position.z / tilesize) + oceanSize.y);
             tiles[x, y] = null;
-            Debug.Log("Cleared: " + x + " " + y);
         }
     }
 
