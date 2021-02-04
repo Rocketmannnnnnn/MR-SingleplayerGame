@@ -8,6 +8,9 @@ public class PlayerController : MonoBehaviour
     public Transform turretTransform;
     public Transform turretEnd;
 
+    [Header("Tank Properties")]
+    private Rigidbody tankRigidbody;
+
     [Header("Input")]
     private TankInput tankInput;
 
@@ -25,20 +28,31 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        tankRigidbody = GetComponent<Rigidbody>();
         tankInput = GetComponent<TankInput>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        HandleMovement();
         HandleShooting();
         HandleTurret();
     }
 
     protected virtual void HandleMovement()
     {
-        transform.Rotate(0, Input.GetAxis("Horizontal"), Time.deltaTime * tankRotationSpeed, 0);
-        transform.Translate(0, 0, Input.GetAxis("Vertical") * Time.deltaTime * tankMovementSpeed);
+        if(tankRigidbody && tankInput)
+        {
+            // forwards/backwards movement
+            Vector3 movementPosition = transform.position + (transform.forward * tankInput.ForwardInput * tankMovementSpeed * Time.deltaTime);
+            tankRigidbody.MovePosition(movementPosition);
+
+            //rotation movement
+            Quaternion movementRotation = transform.rotation * Quaternion.Euler(Vector3.up * (tankRotationSpeed * tankInput.RotationInput * Time.deltaTime));
+            tankRigidbody.MoveRotation(movementRotation);
+
+        }
     }
 
     protected virtual void HandleTurret()

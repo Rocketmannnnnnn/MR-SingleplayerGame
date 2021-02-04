@@ -15,12 +15,19 @@ public class TankInput : MonoBehaviour
         get { return reticlePosition; }
     }
 
-    private Vector3 reticleNormal;
-    public Vector3 ReticleNormal
+
+    [Header("Movement Properties")]
+    private float forwardInput;
+    public float ForwardInput
     {
-        get { return reticleNormal; }
+        get { return forwardInput; }
     }
 
+    private float rotationInput;
+    public float RotationInput
+    {
+        get { return rotationInput; }
+    }
     #endregion
 
     private void Start()
@@ -49,8 +56,10 @@ public class TankInput : MonoBehaviour
         if(Physics.Raycast(screenRay, out hit))
         {
             reticlePosition = hit.point;
-            reticleNormal = hit.normal;
         }
+
+        forwardInput = Input.GetAxis("Vertical");
+        rotationInput = Input.GetAxis("Horizontal");
     }
 
     #endregion
