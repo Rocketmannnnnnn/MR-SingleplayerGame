@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ExitApplication : MonoBehaviour
+public class ApplicationState : MonoBehaviour
 {
+    public bool allowRestart = false;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -13,6 +16,11 @@ public class ExitApplication : MonoBehaviour
 #else
          Application.Quit();
 #endif
+        }
+
+        if(this.allowRestart && Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
