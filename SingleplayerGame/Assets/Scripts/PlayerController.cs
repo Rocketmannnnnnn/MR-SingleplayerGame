@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     public int shellSpeed;
     public float shellDespawnTime;
     private bool shellShootable = true;
-    public float shellFireRate;
+    public float shellFireDelay;
 
     [Header("Movement Properties")]
     public float tankMovementSpeed;
@@ -55,10 +55,8 @@ public class PlayerController : MonoBehaviour
 
     protected virtual void HandleShooting()
     {
-        if (Input.GetMouseButtonDown(0) && shellShootable)
+        if (Input.GetMouseButton(0) && shellShootable)
         {
-            Debug.Log("PIEF");
-
             shellShootable = false;
             shootShell();
             StartCoroutine(ShootingYield());
@@ -67,7 +65,7 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator ShootingYield()
     {
-        yield return new WaitForSeconds(shellFireRate);
+        yield return new WaitForSeconds(shellFireDelay);
         shellShootable = true;
     }
 

@@ -6,9 +6,9 @@ public class TankInput : MonoBehaviour
 {
 
     #region Attributes
-    public Camera camera;
-
+    private Camera camera;
     private Vector3 reticlePosition;
+    public string cameraTag = "MainCamera";
 
     public Vector3 ReticlePosition
     {
@@ -23,6 +23,10 @@ public class TankInput : MonoBehaviour
 
     #endregion
 
+    private void Start()
+    {
+        this.camera = GameObject.FindWithTag(this.cameraTag).GetComponent<Camera>();
+    }
 
     #region Built in Methods
     // Update is called once per frame

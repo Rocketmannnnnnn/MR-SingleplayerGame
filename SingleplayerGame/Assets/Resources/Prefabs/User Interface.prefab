@@ -296,7 +296,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You lost your cookies. Press R to try again.
+  m_Text: You lost your cookies. Press R to try again.  Hit ESC to quit.
 --- !u!1 &2900582612621239306
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,7 +474,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You won! Hmmmm cookies... Press R to replay the game.
+  m_Text: You won! Hmmmm cookies... Press R to replay the game. Hit ESC to quit.
 --- !u!1 &2900582613209043652
 GameObject:
   m_ObjectHideFlags: 0

@@ -20,17 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-<<<<<<< HEAD
-  m_MinSize: {x: 708, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
-  vertical: 0
-  controlID: 4331
-=======
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 16738
->>>>>>> playerAim
+  controlID: 22532
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -54,11 +47,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 541
-<<<<<<< HEAD
     width: 1120
-=======
-    width: 909
->>>>>>> playerAim
     height: 458
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -66,11 +55,7 @@ MonoBehaviour:
   m_SerializedCustomFieldsNames: []
   m_SerializedCustomFieldsValues: []
   m_PlayModeViewName: GameView
-<<<<<<< HEAD
   m_ShowGizmos: 0
-=======
-  m_ShowGizmos: 1
->>>>>>> playerAim
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
   m_TargetSize: {x: 777, y: 437}
@@ -80,11 +65,7 @@ MonoBehaviour:
   m_MaximizeOnPlay: 1
   m_UseMipMap: 0
   m_VSyncEnabled: 0
-<<<<<<< HEAD
   m_Gizmos: 0
-=======
-  m_Gizmos: 1
->>>>>>> playerAim
   m_Stats: 0
   m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
@@ -102,11 +83,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-<<<<<<< HEAD
     m_VSlider: 0
-=======
-    m_VSlider: 1
->>>>>>> playerAim
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -117,24 +94,16 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
       width: 1120
       height: 437
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 560, y: 218.5}
-=======
-      width: 909
-      height: 437
-    m_Scale: {x: 1.0457258, y: 1.0457258}
-    m_Translation: {x: 454.5, y: 228.49109}
->>>>>>> playerAim
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
       x: -560
       y: -218.5
       width: 1120
@@ -142,15 +111,6 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1120, y: 458}
-=======
-      x: -434.62634
-      y: -218.5
-      width: 869.2527
-      height: 417.89157
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 909, y: 458}
->>>>>>> playerAim
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -178,17 +138,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-<<<<<<< HEAD
-  m_MinSize: {x: 708, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
-  vertical: 0
-  controlID: 4332
-=======
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 16739
->>>>>>> playerAim
+  controlID: 22533
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,21 +161,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1121
-    height: 947
-  m_MinSize: {x: 200, y: 321}
-  m_MaxSize: {x: 4001, y: 8021}
-  vertical: 1
-  controlID: 4333
-=======
-    width: 910
     height: 947
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 16740
->>>>>>> playerAim
+  controlID: 22481
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,42 +177,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-  m_Name: ConsoleWindow
-=======
   m_Name: SceneView
->>>>>>> playerAim
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1121
     height: 468
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 8}
-=======
-    width: 910
-    height: 468
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
->>>>>>> playerAim
   m_Panes:
   - {fileID: 6}
   - {fileID: 7}
   - {fileID: 8}
   - {fileID: 9}
-<<<<<<< HEAD
-  m_Selected: 2
-  m_LastSelected: 0
-=======
   m_Selected: 0
   m_LastSelected: 2
->>>>>>> playerAim
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -292,11 +219,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-<<<<<<< HEAD
     width: 1120
-=======
-    width: 909
->>>>>>> playerAim
     height: 447
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -309,15 +232,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: 1.7954566, y: 8.150715, z: 11.288553}
+    m_Target: {x: 13.395929, y: -4.8041515, z: 2.6367626}
     speed: 2
-    m_Value: {x: 1.7954566, y: 8.150715, z: 11.288553}
-=======
-    m_Target: {x: 19.886305, y: 3.1451597, z: 21.51681}
-    speed: 2
-    m_Value: {x: 19.886305, y: 3.1451597, z: 21.51681}
->>>>>>> playerAim
+    m_Value: {x: 13.395929, y: -4.8041515, z: 2.6367626}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -363,23 +280,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-    m_Target: {x: 0.01817812, y: 0.86507344, z: -0.5003713, w: 0.03140772}
+    m_Target: {x: 0.18540904, y: -0.81451154, z: 0.39496195, w: 0.38236046}
     speed: 2
-    m_Value: {x: 0.018177753, y: 0.86505604, z: -0.5003612, w: 0.031407088}
+    m_Value: {x: 0.18540904, y: -0.81451154, z: 0.39496195, w: 0.38236046}
   m_Size:
-    m_Target: 23.768652
+    m_Target: 27.767408
     speed: 2
-    m_Value: 23.768652
-=======
-    m_Target: {x: 0.00906891, y: 0.9709802, z: -0.23607205, w: 0.037302487}
-    speed: 2
-    m_Value: {x: 0.009068882, y: 0.97097725, z: -0.23607132, w: 0.03730237}
-  m_Size:
-    m_Target: 2.8967392
-    speed: 2
-    m_Value: 2.8967392
->>>>>>> playerAim
+    m_Value: 27.767408
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -397,11 +304,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-<<<<<<< HEAD
-  m_LastSceneViewRotation: {x: 0.15754464, y: 0.8396302, z: -0.40340772, w: 0.32787633}
-=======
-  m_LastSceneViewRotation: {x: -0.090891674, y: 0.76169264, z: -0.10952238, w: -0.6321167}
->>>>>>> playerAim
+  m_LastSceneViewRotation: {x: -0.15501663, y: 0.6676144, z: -0.14501774, w: -0.71363366}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -431,11 +334,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-<<<<<<< HEAD
-    width: 1119
-=======
-    width: 909
->>>>>>> playerAim
+    width: 1120
     height: 447
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
@@ -499,11 +398,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-<<<<<<< HEAD
     width: 1120
-=======
-    width: 909
->>>>>>> playerAim
     height: 447
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &9
@@ -515,16 +410,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
-  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Test Runner
-    m_Image: {fileID: 0}
-=======
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -534,420 +419,14 @@ MonoBehaviour:
     m_Text: Asset Store
     m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
       type: 0}
->>>>>>> playerAim
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
     y: 73
-<<<<<<< HEAD
-    width: 1119
-    height: 447
-  m_ViewDataDictionary: {fileID: 0}
-  m_Spl:
-    ID: 1993
-    splitterInitialOffset: 0
-    currentActiveSplitter: -1
-    realSizes: 1b0100005e000000
-    relativeSizes:
-    - 0.75
-    - 0.25
-    minSizes: 2000000020000000
-    maxSizes: 0000000000000000
-    lastTotalSize: 377
-    splitSize: 6
-    xOffset: 0
-  m_TestTypeToolbarIndex: 0
-  m_PlayModeTestListGUI:
-    m_Window: {fileID: 9}
-    newResultList:
-    - id: 1000
-      uniqueId: '[TankShootingSimulator3000][suite]'
-      name: TankShootingSimulator3000
-      fullName: TankShootingSimulator3000
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    m_ResultText: 
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 11226f9739c3989d5721e4b6568644e2e557abf760ec79fb99843200754a63018359db417da1f253ffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 1
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
-    m_SelectedOption: 0
-  m_EditModeTestListGUI:
-    m_Window: {fileID: 9}
-    newResultList:
-    - id: 1000
-      uniqueId: '[TankYouOne][suite]'
-      name: TankYouOne
-      fullName: TankYouOne
-      resultStatus: 1
-      duration: 0.1919661
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    - id: 1006
-      uniqueId: '[PlaymodeTests][C:/Users/Jaspe/Documents/_Github/TankYouOne/TankYouOne/Library/ScriptAssemblies/PlaymodeTests.dll][suite]'
-      name: PlaymodeTests.dll
-      fullName: C:/Users/Jaspe/Documents/_Github/TankYouOne/TankYouOne/Library/ScriptAssemblies/PlaymodeTests.dll
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[TankYouOne][suite]'
-    - id: 1001
-      uniqueId: PlaymodeTests.dll/[PlaymodeTests][HostSteamTests][suite]
-      name: HostSteamTests
-      fullName: HostSteamTests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1006
-      parentUniqueId: '[PlaymodeTests][C:/Users/Jaspe/Documents/_Github/TankYouOne/TankYouOne/Library/ScriptAssemblies/PlaymodeTests.dll][suite]'
-    - id: 1003
-      uniqueId: PlaymodeTests.dll/HostSteamTests/[PlaymodeTests][HostSteamTests.LobbyCreateErrorTest]
-      name: LobbyCreateErrorTest
-      fullName: HostSteamTests.LobbyCreateErrorTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlaymodeTests.dll/[PlaymodeTests][HostSteamTests][suite]
-    - id: 1002
-      uniqueId: PlaymodeTests.dll/HostSteamTests/[PlaymodeTests][HostSteamTests.LobbyCreationTest]
-      name: LobbyCreationTest
-      fullName: HostSteamTests.LobbyCreationTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlaymodeTests.dll/[PlaymodeTests][HostSteamTests][suite]
-    - id: 1004
-      uniqueId: PlaymodeTests.dll/[PlaymodeTests][PartCollectionTests][suite]
-      name: PartCollectionTests
-      fullName: PartCollectionTests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1006
-      parentUniqueId: '[PlaymodeTests][C:/Users/Jaspe/Documents/_Github/TankYouOne/TankYouOne/Library/ScriptAssemblies/PlaymodeTests.dll][suite]'
-    - id: 1005
-      uniqueId: PlaymodeTests.dll/PartCollectionTests/[PlaymodeTests][PartCollectionTests.NoDuplicateIds]
-      name: NoDuplicateIds
-      fullName: PartCollectionTests.NoDuplicateIds
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlaymodeTests.dll/[PlaymodeTests][PartCollectionTests][suite]
-    - id: 1026
-      uniqueId: '[Tests][C:/Users/Jaspe/Documents/_Github/TankYouOne/TankYouOne/Library/ScriptAssemblies/Tests.dll][suite]'
-      name: Tests.dll
-      fullName: C:/Users/Jaspe/Documents/_Github/TankYouOne/TankYouOne/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 1
-      duration: 0.1586605
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1016
-      parentUniqueId: '[TankYouOne][suite]'
-    - id: 1017
-      uniqueId: Tests.dll/[Tests][TankBuilderTest][suite]
-      name: TankBuilderTest
-      fullName: TankBuilderTest
-      resultStatus: 1
-      duration: 0.0244327
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1026
-      parentUniqueId: '[Tests][C:/Users/Jaspe/Documents/_Github/TankYouOne/TankYouOne/Library/ScriptAssemblies/Tests.dll][suite]'
-    - id: 1019
-      uniqueId: Tests.dll/TankBuilderTest/[Tests][TankBuilderTest.CantRemoveHullTest]
-      name: CantRemoveHullTest
-      fullName: TankBuilderTest.CantRemoveHullTest
-      resultStatus: 1
-      duration: 0.0039153
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1017
-      parentUniqueId: Tests.dll/[Tests][TankBuilderTest][suite]
-    - id: 1020
-      uniqueId: Tests.dll/TankBuilderTest/[Tests][TankBuilderTest.CorrectPartAfterSwapping]
-      name: CorrectPartAfterSwapping
-      fullName: TankBuilderTest.CorrectPartAfterSwapping
-      resultStatus: 1
-      duration: 0.0014594
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1017
-      parentUniqueId: Tests.dll/[Tests][TankBuilderTest][suite]
-    - id: 1021
-      uniqueId: Tests.dll/TankBuilderTest/[Tests][TankBuilderTest.DoesntThrowException]
-      name: DoesntThrowException
-      fullName: TankBuilderTest.DoesntThrowException
-      resultStatus: 1
-      duration: 0.0022934
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1017
-      parentUniqueId: Tests.dll/[Tests][TankBuilderTest][suite]
-    - id: 1018
-      uniqueId: Tests.dll/TankBuilderTest/[Tests][TankBuilderTest.StartWithHullTest]
-      name: StartWithHullTest
-      fullName: TankBuilderTest.StartWithHullTest
-      resultStatus: 1
-      duration: 0.0015156
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1017
-      parentUniqueId: Tests.dll/[Tests][TankBuilderTest][suite]
-    - id: 1022
-      uniqueId: Tests.dll/TankBuilderTest/[Tests][TankBuilderTest.TankWithAllPartTypesOnce]
-      name: TankWithAllPartTypesOnce
-      fullName: TankBuilderTest.TankWithAllPartTypesOnce
-      resultStatus: 1
-      duration: 0.0048692
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1017
-      parentUniqueId: Tests.dll/[Tests][TankBuilderTest][suite]
-    - id: 1027
-      uniqueId: Tests.dll/[Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 1
-      duration: 0.1303432
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1026
-      parentUniqueId: '[Tests][C:/Users/Jaspe/Documents/_Github/TankYouOne/TankYouOne/Library/ScriptAssemblies/Tests.dll][suite]'
-    - id: 1023
-      uniqueId: Tests.dll/Tests/[Tests][Tests.PackagesInstalledTest][suite]
-      name: PackagesInstalledTest
-      fullName: Tests.PackagesInstalledTest
-      resultStatus: 1
-      duration: 0.096534
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1027
-      parentUniqueId: Tests.dll/[Tests][suite]
-    - id: 1024
-      uniqueId: Tests.dll/Tests/PackagesInstalledTest/[Tests][Tests.PackagesInstalledTest.NewtonsoftInstalledTest]
-      name: NewtonsoftInstalledTest
-      fullName: Tests.PackagesInstalledTest.NewtonsoftInstalledTest
-      resultStatus: 1
-      duration: 0.0894949
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1023
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PackagesInstalledTest][suite]
-    - id: 1025
-      uniqueId: Tests.dll/Tests/PackagesInstalledTest/[Tests][Tests.PackagesInstalledTest.SteamworksInstalledTest]
-      name: SteamworksInstalledTest
-      fullName: Tests.PackagesInstalledTest.SteamworksInstalledTest
-      resultStatus: 1
-      duration: 0.0009763
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1023
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.PackagesInstalledTest][suite]
-    m_ResultText: TankBuilderTest (0,024s)
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1851e733
-      m_LastClickedID: 870797592
-      m_ExpandedIDs: 11226f9755e7b0f8ffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
-=======
     width: 909
     height: 447
   m_ViewDataDictionary: {fileID: 0}
->>>>>>> playerAim
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -965,17 +444,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 468
-<<<<<<< HEAD
     width: 1121
-    height: 479
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-=======
-    width: 910
     height: 479
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
->>>>>>> playerAim
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -1010,11 +482,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-<<<<<<< HEAD
-  m_LastSelectedObjectID: 13550
-=======
-  m_LastSelectedObjectID: 19010
->>>>>>> playerAim
+  m_LastSelectedObjectID: -325310
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1032,24 +500,14 @@ MonoBehaviour:
   - {fileID: 15}
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1121
     y: 0
     width: 334
-=======
-    x: 910
-    y: 0
-    width: 462
->>>>>>> playerAim
     height: 947
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-<<<<<<< HEAD
-  controlID: 4307
-=======
-  controlID: 16703
->>>>>>> playerAim
+  controlID: 22534
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1067,11 +525,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 334
-=======
-    width: 462
->>>>>>> playerAim
     height: 468
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -1101,15 +555,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1121
     y: 73
     width: 332
-=======
-    x: 910
-    y: 73
-    width: 460
->>>>>>> playerAim
     height: 447
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -1117,11 +565,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-<<<<<<< HEAD
-      m_ExpandedIDs: e4e6ffffbaf5ffff6afbffff
-=======
-      m_ExpandedIDs: 5a72ffff7072ffffaaa0ffffbaa0ffff38a3ffff40a3ffff42a3ffff80a3ffff1aa4ffff484a0000
->>>>>>> playerAim
+      m_ExpandedIDs: fedefbff04dffbffeee1fbfff4e1fbff04e2fbff0ae2fbff0efdfbff14fdfbffc668fdff1e95ffff4a95ffff5e95ffff6895ffff8c95ffff9e95ffffc695ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1162,17 +606,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 468
-<<<<<<< HEAD
     width: 334
     height: 479
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-=======
-    width: 462
-    height: 479
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
->>>>>>> playerAim
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -1199,15 +636,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1121
     y: 541
     width: 332
-=======
-    x: 910
-    y: 541
-    width: 460
->>>>>>> playerAim
     height: 458
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -1222,32 +653,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-<<<<<<< HEAD
-    - Assets/Resources/Prefabs/Tiles/Houses
-=======
-    - Assets/_Completed-Assets/Prefabs
->>>>>>> playerAim
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-<<<<<<< HEAD
   m_LastProjectPath: C:\Users\Jaspe\Documents\_Github\MR-SingleplayerGame\SingleplayerGame
-=======
-  m_LastProjectPath: E:\Unity\Unity Projects\MR-SingleplayerGame\SingleplayerGame
->>>>>>> playerAim
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: c22f0000
     m_LastClickedID: 12226
-<<<<<<< HEAD
-    m_ExpandedIDs: ffffffff000000000435000026360000283600002a3600002c3600002e36000030360000323600003436000036360000203a0000
-=======
-    m_ExpandedIDs: ffffffff00000000104e0000144e0000184e00001a4e00001c4e00001e4e0000204e0000244e00003e4e000062a5000064a5000036a60000
->>>>>>> playerAim
+    m_ExpandedIDs: ffffffff000000009e4b0000d8560000e0560000e4560000e6560000e8560000ea560000ec56000012570000145700001e57000056570000ae570000bcb10000c0b10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1272,17 +690,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-<<<<<<< HEAD
-    scrollPos: {x: 0, y: 207}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000000435000026360000283600002a3600002c3600002e36000030360000323600003436000036360000203a0000
-=======
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a3c0100
-    m_LastClickedID: 81034
-    m_ExpandedIDs: ffffffff00000000104e0000144e0000184e00001a4e00001c4e00001e4e0000204e0000244e00003e4e000062a5000064a5000036a60000
->>>>>>> playerAim
+    m_SelectedIDs: 1495ffff
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff000000009e4b0000d8560000e4560000e6560000e8560000ea560000ec56000012570000165700001e57000056570000bcb10000c0b10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1307,13 +718,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-<<<<<<< HEAD
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-=======
-    m_SelectedInstanceIDs: 8a3c0100
-    m_LastClickedInstanceID: 81034
->>>>>>> playerAim
+    m_SelectedInstanceIDs: 1495ffff
+    m_LastClickedInstanceID: -27372
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -1358,32 +764,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1455
     y: 0
     width: 465
-    height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
-=======
-    x: 1372
-    y: 0
-    width: 548
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
+  - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 0
->>>>>>> playerAim
+  m_LastSelected: 1
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1405,15 +797,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1455
     y: 73
     width: 464
-=======
-    x: 1372
-    y: 73
-    width: 547
->>>>>>> playerAim
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -1426,8 +812,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-<<<<<<< HEAD
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: -27372
   m_LastVerticalScrollValue: 0
 --- !u!114 &19
 MonoBehaviour:
@@ -1455,7 +840,3 @@ MonoBehaviour:
     width: 498
     height: 926
   m_ViewDataDictionary: {fileID: 0}
-=======
-  m_LastInspectedObjectInstanceID: 81034
-  m_LastVerticalScrollValue: 100
->>>>>>> playerAim
