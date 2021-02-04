@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour
     private bool shellShootable = true;
     public float shellFireRate;
 
+    [Header("Movement Properties")]
+    public float tankMovementSpeed;
+    public float tankRotationSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +33,12 @@ public class PlayerController : MonoBehaviour
     {
         HandleShooting();
         HandleTurret();
+    }
+
+    protected virtual void HandleMovement()
+    {
+        transform.Rotate(0, Input.GetAxis("Horizontal"), Time.deltaTime * tankRotationSpeed, 0);
+        transform.Translate(0, 0, Input.GetAxis("Vertical") * Time.deltaTime * tankMovementSpeed);
     }
 
     protected virtual void HandleTurret()
