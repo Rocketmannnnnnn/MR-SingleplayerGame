@@ -138,6 +138,6 @@ MonoBehaviour:
   - {fileID: 8842930101013645060, guid: 8dd000f9dc8a8fd43b660889902d5f9e, type: 3}
   islandSize: {x: 5, y: 5}
   buildingSpawnArea: {x: 4, y: 4}
-  oceanSize: {x: 12, y: 12}
+  oceanSize: {x: 15, y: 15}
   buildingSpawnChance: 0.3
   tilesize: 8

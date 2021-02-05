@@ -98,7 +98,6 @@ public class EnemyShooter : MonoBehaviour
                 {
 
                     lineOfSight = (hit.collider.transform.root.gameObject == this.player);
-                    Debug.Log("Is in line of sight: " + lineOfSight);
                 }
             }
 
