@@ -121,6 +121,31 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &199611983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 948569062491965241, guid: 8334a66eae8c9884a93114740ba433c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 948569061300041082}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &199611984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199611983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a95c34b64785f245be20046972e3ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootAtTag: Player
+  turretTransform: {fileID: 1796853949}
+  turretEnd: {fileID: 467112345}
+  shell: {fileID: 4591662585618871903, guid: 65a80a99834eb1c49ad05081c4ed9522, type: 3}
+  shellSpeed: 35
+  shellDespawnTime: 5
+  shellFireDelay: 0.5
 --- !u!1 &446851630 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6704604695711321677, guid: f3913e976d77c1d4f98c54102cc413eb,
@@ -152,6 +177,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94ba5cf754adb84984c9316023511db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &467112344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 467112345}
+  m_Layer: 0
+  m_Name: turretEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &467112345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467112344}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0}
+  m_LocalPosition: {x: 0, y: 1.4999999, z: -4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1796853949}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,6 +304,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5874086148002179883, guid: 43d81e91319c0d14193d5ba1a28e76bf,
     type: 3}
   m_PrefabInstance: {fileID: 5874086147177307994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1796853949 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7068377750161851726, guid: 8334a66eae8c9884a93114740ba433c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 948569061300041082}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &312207922317674374
 GameObject:
@@ -365,6 +426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6795895356632362420, guid: 70432dd2ce171ae469be9383d9ab5431,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6795895356632362423, guid: 70432dd2ce171ae469be9383d9ab5431,
         type: 3}

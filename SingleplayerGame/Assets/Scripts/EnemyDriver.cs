@@ -17,12 +17,14 @@ public class EnemyDriver : MonoBehaviour
     // The awake function is triggerd before the start
     void Awake()
     {
+
         this.agent = GetComponent<NavMeshAgent>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
+
         this.player = GameObject.Find(this.playerTag);
         StartCoroutine(this.setPath);
     }
