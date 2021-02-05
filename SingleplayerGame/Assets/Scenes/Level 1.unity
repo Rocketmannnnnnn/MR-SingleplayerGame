@@ -274,6 +274,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 199611984, guid: 8334a66eae8c9884a93114740ba433c8, type: 3}
+      propertyPath: shellFireDelay
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 199611984, guid: 8334a66eae8c9884a93114740ba433c8, type: 3}
+      propertyPath: lineOfSightDelay
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1552734726, guid: 8334a66eae8c9884a93114740ba433c8, type: 3}
+      propertyPath: m_Speed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 948569062491965241, guid: 8334a66eae8c9884a93114740ba433c8,
         type: 3}
       propertyPath: m_Name
@@ -344,8 +356,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1990699332, guid: 70432dd2ce171ae469be9383d9ab5431, type: 3}
+      propertyPath: shellFireDelay
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990699332, guid: 70432dd2ce171ae469be9383d9ab5431, type: 3}
       propertyPath: tankMovementSpeed
-      value: 10
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1990699332, guid: 70432dd2ce171ae469be9383d9ab5431, type: 3}
       propertyPath: tankRotationSpeed

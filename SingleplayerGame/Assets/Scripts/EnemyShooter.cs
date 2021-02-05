@@ -28,6 +28,7 @@ public class EnemyShooter : MonoBehaviour
     {
 
         this.player = GameObject.FindGameObjectWithTag(this.shootAtTag);
+        StartCoroutine(InLineOfSight());
     }
 
     // Update is called once per frame
@@ -41,7 +42,7 @@ public class EnemyShooter : MonoBehaviour
     protected virtual void HandleShooting()
     {
 
-        if (shellShootable && lineOfSight)
+        if (shellShootable && lineOfSight && this.player)
         {
 
             shellShootable = false;
@@ -78,15 +79,31 @@ public class EnemyShooter : MonoBehaviour
     private IEnumerator InLineOfSight()
     {
 
-        if (this.player)
+        while (true)
         {
 
-            Vector3 direction = (this.player.transform.position - this.transform.position);
-            Ray ray = new Ray(this.transform.position, direction);
-        }
+            if (this.player)
+            {
 
-        yield return new WaitForSeconds(lineOfSightDelay);
-        lineOfSight = false;
+                Vector3 position = this.transform.position;
+                Vector3 direction = (this.player.transform.position - this.transform.position);
+
+                direction.y += 1;
+                position.y += 1;
+
+                Ray ray = new Ray(position, direction);
+                RaycastHit hit;
+
+                if (Physics.Raycast(ray, out hit, 500.0f))
+                {
+
+                    lineOfSight = (hit.collider.transform.root.gameObject == this.player);
+                    Debug.Log("Is in line of sight: " + lineOfSight);
+                }
+            }
+
+            yield return new WaitForSeconds(lineOfSightDelay);
+        }
     }
 
     private void shootShell()
