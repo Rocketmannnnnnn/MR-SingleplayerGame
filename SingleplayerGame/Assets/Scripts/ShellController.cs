@@ -11,4 +11,11 @@ public class ShellController : MonoBehaviour
         Destroy(collision.transform.root.gameObject);
         Destroy(this.transform.root.gameObject);
     }
+
+    //private void OnTriggerEnter(Collider other)
+    //{
+
+    //    Destroy(other.transform.root.gameObject);
+    //    Destroy(this.transform.root.gameObject);
+    //}
 }

@@ -6,8 +6,11 @@ public class EnemyShooter : MonoBehaviour
 {
 
     private GameObject player;
+    private bool lineOfSight = false;
+
     [Header("Shoots At")]
     public string shootAtTag = "Player";
+    public float lineOfSightDelay;
 
     [Header("Turret Properties")]
     public Transform turretTransform;
@@ -38,10 +41,12 @@ public class EnemyShooter : MonoBehaviour
     protected virtual void HandleShooting()
     {
 
-        if (Input.GetMouseButton(0) && shellShootable)
+        if (shellShootable && lineOfSight)
         {
 
             shellShootable = false;
+            lineOfSight = false;
+
             shootShell();
             StartCoroutine(ShootingYield());
         }
@@ -68,6 +73,20 @@ public class EnemyShooter : MonoBehaviour
 
         yield return new WaitForSeconds(shellFireDelay);
         shellShootable = true;
+    }
+
+    private IEnumerator InLineOfSight()
+    {
+
+        if (this.player)
+        {
+
+            Vector3 direction = (this.player.transform.position - this.transform.position);
+            Ray ray = new Ray(this.transform.position, direction);
+        }
+
+        yield return new WaitForSeconds(lineOfSightDelay);
+        lineOfSight = false;
     }
 
     private void shootShell()
