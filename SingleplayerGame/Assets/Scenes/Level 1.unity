@@ -121,37 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &446851630 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6704604695711321677, guid: f3913e976d77c1d4f98c54102cc413eb,
-    type: 3}
-  m_PrefabInstance: {fileID: 6704604695300142152}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &446851634
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 446851630}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 110, y: 20, z: 110}
-  m_Center: {x: 0, y: 10, z: 0}
---- !u!114 &446851635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 446851630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a94ba5cf754adb84984c9316023511db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,18 +243,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 199611984, guid: 8334a66eae8c9884a93114740ba433c8, type: 3}
-      propertyPath: shellFireDelay
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 199611984, guid: 8334a66eae8c9884a93114740ba433c8, type: 3}
-      propertyPath: lineOfSightDelay
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1552734726, guid: 8334a66eae8c9884a93114740ba433c8, type: 3}
-      propertyPath: m_Speed
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 948569062491965241, guid: 8334a66eae8c9884a93114740ba433c8,
         type: 3}
       propertyPath: m_Name
@@ -355,32 +312,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1990699332, guid: 70432dd2ce171ae469be9383d9ab5431, type: 3}
-      propertyPath: shellFireDelay
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1990699332, guid: 70432dd2ce171ae469be9383d9ab5431, type: 3}
-      propertyPath: tankMovementSpeed
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 1990699332, guid: 70432dd2ce171ae469be9383d9ab5431, type: 3}
-      propertyPath: tankRotationSpeed
-      value: 180
-      objectReference: {fileID: 0}
     - target: {fileID: 6795895356632362417, guid: 70432dd2ce171ae469be9383d9ab5431,
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6795895356632362417, guid: 70432dd2ce171ae469be9383d9ab5431,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6795895356632362420, guid: 70432dd2ce171ae469be9383d9ab5431,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6795895356632362423, guid: 70432dd2ce171ae469be9383d9ab5431,
         type: 3}
@@ -520,27 +455,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5098271451474508588, guid: 8011aca7073725547b9801b0a0026588,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 8.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5098271451474508588, guid: 8011aca7073725547b9801b0a0026588,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5098271451474508588, guid: 8011aca7073725547b9801b0a0026588,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 8.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5098271451474508591, guid: 8011aca7073725547b9801b0a0026588,
-        type: 3}
-      propertyPath: m_NavMeshData
-      value: 
-      objectReference: {fileID: 23800000, guid: d22d05bc9223495448aca3aa6e13d30e,
-        type: 2}
     - target: {fileID: 5098271451812249434, guid: 8011aca7073725547b9801b0a0026588,
         type: 3}
       propertyPath: m_Name
@@ -688,11 +602,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 6704604695711321677, guid: f3913e976d77c1d4f98c54102cc413eb,
-        type: 3}
-      propertyPath: m_Layer
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6704604695711321679, guid: f3913e976d77c1d4f98c54102cc413eb,
         type: 3}

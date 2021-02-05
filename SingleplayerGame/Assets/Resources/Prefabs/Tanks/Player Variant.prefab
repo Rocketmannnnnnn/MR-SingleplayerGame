@@ -47,9 +47,9 @@ MonoBehaviour:
   shell: {fileID: 4591662585618871903, guid: 65a80a99834eb1c49ad05081c4ed9522, type: 3}
   shellSpeed: 35
   shellDespawnTime: 5
-  shellFireDelay: 0.5
-  tankMovementSpeed: 5
-  tankRotationSpeed: 5
+  shellFireDelay: 2
+  tankMovementSpeed: 18
+  tankRotationSpeed: 180
 --- !u!114 &1990699333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,7 +83,7 @@ PrefabInstance:
     - target: {fileID: 5631768214257113280, guid: b09a358e561164c469c0d939bf765eda,
         type: 3}
       propertyPath: m_Name
-      value: Player Variant
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5631768214257113280, guid: b09a358e561164c469c0d939bf765eda,
         type: 3}

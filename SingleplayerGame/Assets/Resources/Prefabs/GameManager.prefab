@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 6704604695711321679}
   - component: {fileID: 6704604695711321678}
   - component: {fileID: 6704604695711321664}
-  m_Layer: 0
+  - component: {fileID: 446851634}
+  - component: {fileID: 446851635}
+  m_Layer: 2
   m_Name: GameManager
   m_TagString: GameController
   m_Icon: {fileID: 0}
@@ -62,3 +64,28 @@ MonoBehaviour:
   userInterfaceTag: UI
   winCheckDelay: 0.5
   loadingScene: 0
+--- !u!65 &446851634
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6704604695711321677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 110, y: 20, z: 110}
+  m_Center: {x: 0, y: 10, z: 0}
+--- !u!114 &446851635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6704604695711321677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94ba5cf754adb84984c9316023511db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
